@@ -1,0 +1,64 @@
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+
+# Go workspace file
+go.work
+
+# Binaries for programs and plugins
+bin/
+release/
+
+# Dataset and user uploaded files
+/datasets/*
+!/datasets/.gitkeep
+
+# Environment and config files
+.env
+*.env
+*.env.*
+!example.env
+
+# Docker
+.docker/
+docker/data/
+*.log
+*.sqlite
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Dependency directories
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build output
+build/
+dist/
+tmp/
+
+# Redis
+dump.rdb
+
+# Generated files
+*.pb.go
+swagger.json
+
+# Coverage and testing
+coverage.txt
+coverage.html
+/coverage/ 
